@@ -60,7 +60,7 @@ public class Test1 {
         Thread.sleep(300);
         WebElement zipCode = driver.findElement(By.cssSelector("#inputZip"));
         zipCode.sendKeys("60004");
-        Thread.sleep(300);
+        Thread.sleep(2000);
         WebElement submit = driver.findElement(By.xpath("//button[.='Submit']"));
         submit.click();
         Thread.sleep(300);
